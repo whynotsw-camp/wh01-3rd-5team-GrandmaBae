@@ -93,19 +93,92 @@ whynotsw-camp 3rd-배할머니네 손주들 레포지토리입니다.
 
 ---------------------------------------
 
-<details><summary>요구사항 정의서
-</summary>
-  
-## 1. 기능적 요구사항
-- 사용자 관리 기능: 사용자는 로그인/회원가입할 수 있다.
-- 데이터 처리 기능: 클라우드 시스템에서 빅데이터 분석을 처리할 수 있어야 한다.
-- 결과 출력 기능: 분석 결과를 그래픽 및 표로 출력할 수 있어야 한다.
+<details>
+  <summary>요구사항 정의서</summary>
 
-## 2. 비기능적 요구사항
-- 응답 시간: 시스템은 2초 이내에 요청에 응답해야 한다.
-- 성능: 시스템은 1,000명의 동시 사용자 처리가 가능해야 한다.
-- 보안: 모든 데이터는 암호화되어 저장되어야 한다.
+  ### 1. 프로젝트 전반 요구사항
+  <!-- summary 다음에 한 줄 띄우고 테이블 삽입 -->
+  <table border="1" style="border-collapse:collapse; width:100%; text-align:center;">
+    <thead>
+      <tr>
+        <th colspan="3" style="background-color:#B0C4DE; height:40px;">
+          프로젝트 전반 요구사항
+        </th>
+      </tr>
+      <tr style="background-color:#EAEAEA;">
+        <th style="width:15%;">구분</th>
+        <th style="width:15%;">항목</th>
+        <th style="width:70%;">내용</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="3">서비스 개요</td>
+        <td>프로젝트명</td>
+        <td>실시간 AI 홈쇼핑 상품 추천 서비스</td>
+      </tr>
+      <tr>
+        <td>서비스 대상</td>
+        <td>중장년층 여성 시청자 중심</td>
+      </tr>
+      <tr>
+        <td>서비스 범위</td>
+        <td>여성 패션/뷰티 관련 방송 프로그램 및 IPTV 쇼핑몰 연동</td>
+      </tr>
+      <tr>
+        <td>사용자 환경</td>
+        <td>대상 플랫폼</td>
+        <td>WEB 기반 TV 방송 및 IPTV 쇼핑몰</td>
+      </tr>
+      <tr>
+        <td rowspan="2">기술 요구사항</td>
+        <td>AI 기술</td>
+        <td>
+          실시간 객체 인식<br>
+          의류 특정 분석<br>
+          유사 상품 매칭</td>
+      </tr>
+      <tr>
+        <td>성능</td>
+        <td>
+          방송 지연 최소화<br>
+          상품 추천 AI 분석 응답 2초 이하<br>
+          직관적인 UI와 끊김 없는 화면 전환
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2">서비스 품질</td>
+        <td>안정성</td>
+        <td>
+          24시간 실시간 방송 스트리밍<br>
+          동시 접속자 처리<br>
+          오류 복구 시스템</td>
+      </tr>
+      <tr>
+        <td>확장성</td>
+        <td>
+          연령대별 카테고리 세분화 및 남성 패션 확장<br>
+          여성 패션 카테고리 세분화 및 남성 패션 확장<br>
+          찜하기/장바구니와 같은 신규 기능 추가
+        </td>
+      </tr>
+      <tr>
+        <td>제약 사항</td>
+        <td>데이터 처리</td>
+        <td>
+          개인정보 보호<br>
+          방송 저작권 준수<br>
+          데이터 보안
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  ### 2. 프로젝트 상세 요구사항
+  ![상세 요구사항 이미지](./images/requirement_details.png)
+
 </details>
+
 
 <details><summary>WBS
 </summary>
