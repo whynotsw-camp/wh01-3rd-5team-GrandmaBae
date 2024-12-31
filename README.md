@@ -175,76 +175,61 @@ whynotsw-camp 3rd-배할머니네 손주들 레포지토리입니다.
   </table>
 
   ### 2. 프로젝트 상세 요구사항
-  ![상세 요구사항 이미지](./images/requirement_details.png)
-
+  <img src="./images/requirement_details.png" style="width:100%; display:block; margin:auto;" alt="프로젝트 상세 요구사항">
 </details>
 
+<details>
+  <summary>UML</summary>
+
+  ### 유스케이스 다이어그램
+  <img src="./images/UML-usecase_diagram.jpg" style="width:100%; display:block; margin:auto;" alt="UML 유스케이스 다이어그램">
+
+  ### 시퀀스 다이어그램
+  <img src="./images/UML-sequence_diagram" style="width:100%; display:block; margin:auto;" alt="UML 시퀀스 다이어그램">
+
+  ### 클래스 다이어그램
+  <img src="./images/UML-class_diagram.png" style="width:100%; display:block; margin:auto;" alt="UML 클래스 다이어그램">
+  
+</details>
 
 <details><summary>WBS
 </summary>
 
-## 1. 프로젝트 분석
-- 요구사항 수집
-- 시스템 설계
-- 아키텍처 설계
-
-## 2. 시스템 개발
-- 백엔드 개발
-- 프론트엔드 개발
-- 데이터베이스 설계 및 구축
-
-## 3. 테스트 및 배포
-- 단위 테스트
-- 통합 테스트
-- 성능 테스트
-- 배포 준비
-
+<img src="./images/WBS.png" style="width:100%; display:block; margin:auto;" alt="WBS">
 </details>
 
-<details><summary>모델 정의서
-</summary>
-
-## 1. 데이터 모델
-- **사용자 테이블**
-  - `user_id` (Primary Key)
-  - `username`
-  - `password`
-  - `email`
-  - `role` (admin, user)
-
-- **분석 결과 테이블**
-  - `result_id` (Primary Key)
-  - `user_id` (Foreign Key)
-  - `analysis_type`
-  - `timestamp`
-  - `result_data` (JSON)
-
-## 2. 객체 모델
-- **사용자 객체**
-  - 속성: `username`, `password`, `email`
-  - 메소드: `login()`, `logout()`, `register()`
-
+<details>
+  <summary>화면 설계서</summary>
+  
+  <br>
+  
+  *추후 업데이트 예정*
 </details>
 
+- [모델 정의서 (PDF)](./docs/model_definition.pdf)
 
-<details><summary>성능 평가 결과서
-</summary>
 
-## 1. 테스트 환경
-- **서버**: AWS EC2 c5.large 인스턴스
-- **DB**: MySQL 8.0
-- **네트워크**: 1Gbps
+- [모델 성능 평가서 (PDF)](./docs/model_evaluation.pdf)
 
-## 2. 테스트 결과
-- **응답 시간**: 1초 이내
-- **동시 사용자 처리**: 5,000명
-- **CPU 사용률**: 70%
-- **메모리 사용률**: 60%
 
-## 3. 성능 개선 필요 사항
-- 데이터 처리 성능 향상을 위한 캐시 적용
-- 서버 성능 개선을 위한 리소스 스케일링 필요
+<details>
+  <summary>API 명세서</summary>
 
+  <br>
+  
+  *추후 업데이트 예정*
+</details>
+
+<details>
+  <summary>ERD</summary>
+
+  <img src="./images/ERD.png" style="width:100%; display:block; margin:auto;" alt="ERD">
+</details>
+
+<details>
+  <summary>시스템 아키텍처</summary>
+
+  <img src="./images/infra_architecture.png" style="width:100%; display:block; margin:auto;" alt="클라우드 아키텍처">
 </details>
 
 -----------------------------------------
