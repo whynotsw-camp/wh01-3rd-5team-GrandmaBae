@@ -185,7 +185,7 @@ whynotsw-camp 3rd-배할머니네 손주들 레포지토리입니다.
   <img src="./images/UML-usecase_diagram.jpg" style="width:100%; display:block; margin:auto;" alt="UML 유스케이스 다이어그램">
 
   ### 시퀀스 다이어그램
-  <img src="./images/UML-sequence_diagram" style="width:100%; display:block; margin:auto;" alt="UML 시퀀스 다이어그램">
+  <img src="./images/UML-sequence_diagram.jpg" style="width:100%; display:block; margin:auto;" alt="UML 시퀀스 다이어그램">
 
   ### 클래스 다이어그램
   <img src="./images/UML-class_diagram.png" style="width:100%; display:block; margin:auto;" alt="UML 클래스 다이어그램">
