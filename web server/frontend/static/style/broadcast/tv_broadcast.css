@@ -1,0 +1,215 @@
+body{
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #1A1C23; /* 어두운 배경 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  font-family: 'Arial', sans-serif;
+  color: #FFFFFF; /* 기본 텍스트 색상 */
+  }
+  
+  .container {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    background: #1A1C23;
+  }
+  
+  video {
+  }
+  
+  .video-controls-bar {
+    position: fixed; /* 화면 하단에 고정 */
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    background: rgba(0, 0, 0, 0.5); /* 반투명 배경 */
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    z-index: 10; /* 비디오 위에 위치 */
+  }
+  
+  .video-controls-bar button {
+
+    border: none;
+    border-radius: 50%;
+    background: #E40681;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.2s;
+    color: white; /* 아이콘 색상 */
+    font-size: 20px;
+  }
+
+  .video-controls-bar button:active {
+    background: #5E5E5E; /* 눌렀을 때 회색 */
+
+  }
+  
+  #timeline {
+    flex: 1;
+
+    height: 5px;
+    background: #5E5E5E;
+    border-radius: 5px;
+    appearance: none;
+}
+
+  #timeline::-webkit-slider-thumb {
+      width: 10px;
+      height: 10px;
+      background: #E40681;
+      border-radius: 50%;
+      appearance: none;
+  }
+  
+  .remote {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    width: 200px;
+    background: linear-gradient(135deg, #3A3A3A, #5E5E5E);
+
+
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1001;
+
+  }
+
+  .remote .btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #E40681;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .remote.hidden {
+    display: none;
+  }
+
+  .remote .btn:active {
+    background: #5E5E5E;
+}
+
+  .remote .keypad {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 5px;
+      margin: 15px 0;
+  }
+
+  .remote .num-button {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: #E40681;
+      border: none;
+      font-size: 16px;
+      font-weight: bold;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      transition: all 0.2s;
+  }
+
+  .remote .num-button:active {
+      background: #5E5E5E;
+
+
+  }
+
+  .remote .service-btn {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      background: #E40681;
+      font-size: 14px;
+      font-weight: bold;
+      border: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      cursor: pointer;
+      transition: all 0.2s;
+  }
+
+  .remote .service-btn:active {
+      background: #5E5E5E;
+
+  }
+
+  .remote .service-btn-icon {
+      font-size: 18px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  }
+
+  .remote .direction-buttons {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 5px;
+  }
+
+  .remote .direction-buttons .arrow {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: #E40681;
+      border: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 16px;
+      cursor: pointer;
+  }
+
+  .remote .direction-buttons .arrow:active {
+      background: #5E5E5E;
+  }
+
+  .remote.hidden {
+      transform: scale(0.5);
+  }
+
+  #num0 {
+      grid-column: 2;
+  }

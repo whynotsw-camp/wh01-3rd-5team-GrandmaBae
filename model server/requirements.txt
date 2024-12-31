@@ -1,0 +1,14 @@
+fastapi
+psycopg2
+ultralytics
+torchvision
+pillow
+annoy
+requests
+beautifulsoup4
+selenium
+webdriver_manager
+uvicorn 
+opencv-python-headless
+python-multipart
+boto3

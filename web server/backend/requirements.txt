@@ -1,0 +1,11 @@
+flask
+flask-session
+flask-cors
+requests
+boto3
+ultralytics
+opencv-python
+fastapi
+uvicorn
+python-multipart
+

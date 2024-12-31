@@ -1,0 +1,137 @@
+body {
+  background: linear-gradient(135deg, #1A1C23, #2E3044);
+  color: #FFFFFF;
+  font-family: Arial, sans-serif;
+  font-size: 120%;
+}
+
+.header {
+  background-color: #2E3044;
+  padding: 20px 40px;
+  display: flex;
+  gap: 20px;
+  position: relative;
+  z-index: 1001;
+}
+
+.header .tab-btn {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  color: #FFFFFF;
+  background-color: #2E3044;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.header .tab-btn.active, .header .tab-btn:hover {
+  background-color: #E40681;
+}
+
+.category-section {
+  margin: 30px;
+}
+
+.category-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.products-container {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  padding: 10px;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+
+.product-container::-webkit-scrollbar {
+  display: none;
+}
+
+.product-card {
+  background-color: #2E3044;
+  flex: 0 0 auto;
+  width: 300px;
+  height: 400px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.product-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.pip-video {
+  position: absolute;
+  top: 40px;
+  right: 20px;
+  width: 450px;
+  height: 250px;
+  background-color: #000;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.6);
+  transition: width 0.3s ease;
+}
+
+.fixed-btn {
+  position: fixed;
+  top: 10px;
+  z-index: 1001;
+}
+
+#sidebarToggleBtn {
+  right: 60px;
+}
+
+
+
+/* 리코콘 */
+#remoteToggleBtn {
+  right: 20px;
+}
+
+
+
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 300px;
+  height: 100%;
+  background-color: #2E3044;
+  box-shadow: -2px 0 8px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  gap: 20px;
+  transition: transform 0.3s ease-in-out;
+  z-index: 999;
+  transform: translateX(0);  /* 처음부터 보이도록 설정 */
+}
+
+.sidebar.hidden {
+  transform: translateX(100%);
+}
+
+.video-section video, .yolo-image-section img {
+  width: 100%;
+  border-radius: 10px;
+}
