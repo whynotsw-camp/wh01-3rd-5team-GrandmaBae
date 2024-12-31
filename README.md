@@ -1,22 +1,11 @@
-# 3rd-template
-whynotsw-camp 3rd-배할머니네 손주들 레포지토리입니다.
-
----------------------------------------
-
 # 🛒 IPTV 홈쇼핑 - 실시간 AI 상품 추천 서비스 👍
+<br>
 
----------------------------------------
 ## 🎯 프로젝트 개요
 - **프로젝트명**: 실시간 AI 상품 추천 서비스
 - **목표**: 시청 중인 TV 프로그램에서 **원하는 상품**을 즉시 구매할 수 있도록 IPTV 홈쇼핑 채널과 연계한 **고객 맞춤형 채널 추천 서비스** 구현
 - **기간**: 2024년 11월 - 2024년 12월
-<br>
-
-## 📆 프로젝트 일정
-- **분석 및 설계**: 2025년 1월 - 3월
-- **개발**: 2025년 4월 - 8월
-- **테스트 및 배포**: 2025년 9월 - 12월
-<br>
+<br> 
 
 ## 😎 팀원 소개
 <table style="width:100%; text-align:center; table-layout:fixed;">
@@ -92,6 +81,7 @@ whynotsw-camp 3rd-배할머니네 손주들 레포지토리입니다.
 <br>
 
 ---------------------------------------
+## 📃 문서
 
 <details>
   <summary>요구사항 정의서</summary>
@@ -235,34 +225,53 @@ whynotsw-camp 3rd-배할머니네 손주들 레포지토리입니다.
 -----------------------------------------
 
 # 📑 최종 보고서
-
-## 1. 프로젝트 개요
-- **목표**: 클라우드 기반 빅데이터 분석 시스템 구축
-- **기간**: 2025년 1월 - 2025년 12월
-
-## 2. 주요 성과
-- 시스템 구축 완료 및 안정적인 운영
-- 10,000명 이상의 사용자가 동시 접속 가능한 클라우드 서비스 제공
-
-## 3. 향후 개선 사항
-- 사용자 인터페이스 개선
-- 성능 최적화 및 리소스 효율성 향상
+- [최종 보고서 (발표 PPT.PDF)](./docs/final_report.pdf)
 
 -----------------------------------------
 
 # ✨ 회고
 
-## 1. 잘된 점
-- **협업**: 팀원 간의 협업이 원활하게 이루어졌으며, 주기적인 피드백 세션이 유효했다.
-- **일정 관리**: 프로젝트 일정에 맞춰 개발이 진행되었고, 큰 지연 없이 배포를 완료했다.
+<table border="1" style="border-collapse:collapse; width:100%; text-align:center;">
+  <thead>
+    <tr>
+      <th style="background-color:#f2f2f2;">팀원</th>
+      <th style="background-color:#f2f2f2;">회고록</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>박시원<br><br><a href="https://github.com/qkrcool" target="_blank">
+          <img src="https://img.shields.io/badge/GitHub-Link-black?style=flat&logo=github&logoColor=white" />
+        </a></td>
+      <td>업데이트 예정</td>
+    </tr>
+    <tr>
+      <td>이상민<br><br><a href="https://github.com/strangem1n" target="_blank">
+          <img src="https://img.shields.io/badge/GitHub-Link-black?style=flat&logo=github&logoColor=white" />
+        </a></td>
+      <td>업데이트 예정</td>
+    </tr>
+    <tr>
+      <td>이지선<br><br><a href="https://github.com/jisunclaralee" target="_blank">
+          <img src="https://img.shields.io/badge/GitHub-Link-black?style=flat&logo=github&logoColor=white" />
+        </a></td>
+      <td>업데이트 예정</td>
+    </tr>
+    <tr>
+      <td>임세연<br><br><a href="https://github.com/saeyeonIm" target="_blank">
+          <img src="https://img.shields.io/badge/GitHub-Link-black?style=flat&logo=github&logoColor=white" />
+        </a></td>
+      <td>업데이트 예정</td>
+    </tr>
+    <tr>
+      <td>전서영<br><br><a href="https://github.com/tjdud1199" target="_blank">
+          <img src="https://img.shields.io/badge/GitHub-Link-black?style=flat&logo=github&logoColor=white" />
+        </a></td>
+      <td>업데이트 예정</td>
+    </tr>
+  </tbody>
+</table>
 
-## 2. 개선할 점
-- **초기 요구사항 정의 부족**: 초기 요구사항이 부족하여 개발 도중 변경 사항이 많았다.
-- **테스트 시간 부족**: 프로젝트 후반부에 테스트 시간이 부족했으며, 더 많은 시간을 할애해야 했다.
-
-## 3. 교훈
-- **명확한 요구사항 정의**: 초기 단계에서 요구사항을 명확히 정리하는 것이 중요하다.
-- **적절한 테스트 계획 수립**: 충분한 테스트와 성능 점검을 통해 출시 전에 문제를 해결할 수 있어야 한다.
 
 -------------------------------------------
 
