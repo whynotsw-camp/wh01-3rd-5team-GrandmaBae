@@ -29,7 +29,7 @@
   <tbody>
     <tr>
       <td><img src="./images/siwon.jpg" style="width:80%; display:block; margin:auto;" alt="시원"></td>
-      <td>img</td>
+      <td><img src="./images/sangmin.png" style="width:80%; display:block; margin:auto;" alt="상민"></td>
       <td>img</td>
       <td><img src="./images/seyeon.png" style="width:100%; display:block; margin:auto;" alt="세연"></td>
       <td><img src="./images/seoyoung.png" style="width:100%; display:block; margin:auto;" alt="서영"></td>
