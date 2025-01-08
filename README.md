@@ -28,11 +28,11 @@
   </thead>
   <tbody>
     <tr>
-      <td><img src="./images/siwon.png" style="width:100%; display:block; margin:auto;" alt="시원"></td>
+      <td><img src="./images/siwon.jpg" style="width:80%; display:block; margin:auto;" alt="시원"></td>
       <td>img</td>
       <td>img</td>
       <td><img src="./images/seyeon.png" style="width:100%; display:block; margin:auto;" alt="세연"></td>
-      <td><img src="./images/pikmin.jpg" style="width:50%; display:block; margin:auto;" alt="서영"></td>
+      <td><img src="./images/seoyoung.png" style="width:100%; display:block; margin:auto;" alt="서영"></td>
     </tr>
     <tr>
       <td>PM<br>데이터 파이프라인</td>
