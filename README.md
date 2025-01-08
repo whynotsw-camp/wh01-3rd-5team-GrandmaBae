@@ -28,7 +28,7 @@
   </thead>
   <tbody>
     <tr>
-      <td>img</td>
+      <td><img src="./images/siwon.png" style="width:100%; display:block; margin:auto;" alt="시원"></td>
       <td>img</td>
       <td>img</td>
       <td><img src="./images/seyeon.png" style="width:100%; display:block; margin:auto;" alt="세연"></td>
