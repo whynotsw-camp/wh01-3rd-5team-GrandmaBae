@@ -8,7 +8,7 @@
 <br> 
 
 ## 😎 팀원 소개
-<table style="width:100%; text-align:center; table-layout:fixed;">
+<table style="width:100%; text-align:center; table-layout:fixed; border-collapse:collapse;">
   <colgroup>
     <!-- 전체 5열이므로 20%씩 -->
     <col style="width:20%;">
@@ -28,11 +28,11 @@
   </thead>
   <tbody>
     <tr>
-      <td><img src="./images/siwon.jpg" style="width:80%; display:block; margin:auto;" alt="시원"></td>
-      <td><img src="./images/sangmin.png" style="width:80%; display:block; margin:auto;" alt="상민"></td>
-      <td>img</td>
-      <td><img src="./images/seyeon.png" style="width:100%; display:block; margin:auto;" alt="세연"></td>
-      <td><img src="./images/seoyoung.png" style="width:100%; display:block; margin:auto;" alt="서영"></td>
+      <td><img src="./images/siwon.jpg" style="width:150px; height:auto;" alt="시원"></td>
+      <td><img src="./images/sangmin.png" style="width:150px; height:auto;" alt="상민"></td>
+      <td><img src="./images/jiseon.jpg" style="width:150px; height:auto;" alt="지선"></td>
+      <td><img src="./images/seyeon.png" style="width:150px; height:auto;" alt="세연"></td>
+      <td><img src="./images/seoyoung.png" style="width:150px; height:auto;" alt="서영"></td>
     </tr>
     <tr>
       <td>PM<br>데이터 파이프라인</td>
